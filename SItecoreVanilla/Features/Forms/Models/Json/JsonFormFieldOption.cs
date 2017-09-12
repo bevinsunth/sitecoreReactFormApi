@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class Option
+    public class JsonFormFieldOption
     {
         [JsonProperty("displayName")]
         public string DisplayName { get; set; }

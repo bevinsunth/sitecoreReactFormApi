@@ -181,10 +181,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/01/2017 15:16:24</publishTime>
     </File>
     <File Include="bin/SItecoreVanilla.dll">
-      <publishTime>09/11/2017 16:42:52</publishTime>
+      <publishTime>09/12/2017 13:28:54</publishTime>
     </File>
     <File Include="bin/SItecoreVanilla.pdb">
-      <publishTime>09/11/2017 16:42:52</publishTime>
+      <publishTime>09/12/2017 13:28:54</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>01/28/2015 04:02:42</publishTime>

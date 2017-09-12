@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class HelpField
+    public class JsonHelpField
     {
         [JsonProperty("helpHyperlinkText")]
         public string LinkText { get; set; }

@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class Instruction
+    public class JsonFormInstruction
     {
         [JsonProperty("heading")]
         public string Heading { get; set; }

@@ -6,14 +6,14 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class FormField
+    public class JsonFormField
     {
         [JsonProperty("id")]
         public string Name { get; set; }
         [JsonProperty("label")]
         public string Label { get; set; }
         [JsonProperty("help")]
-        public HelpField Help { get; set; }
+        public JsonHelpField Help { get; set; }
         [JsonProperty("options")]
         public IDictionary<string, string> Options { get; set; }
         [JsonProperty("validationMessages")]

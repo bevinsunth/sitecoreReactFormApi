@@ -6,13 +6,13 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class HelpItem
+    public class JsonFormHelpTopic
     {
         [JsonProperty("id")]
         public string Id { get; set; }
         [JsonProperty("title")]
         public string Title { get; set; }
-        [JsonProperty("body")]
-        public string Summary { get; set; }
+        [JsonProperty("helpItems")]
+        public IEnumerable<JsonHelpItem> Items { get; set; }
     }
 }

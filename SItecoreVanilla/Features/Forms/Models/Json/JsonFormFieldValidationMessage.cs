@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SitecoreVanilla.Features.Forms.Models.Json
 {
-    public class ValidationMessage
+    public class JsonFormFieldValidationMessage
     {
         [JsonProperty("message")]
         public string Message { get; set; }
