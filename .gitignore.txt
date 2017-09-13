@@ -1,0 +1,2 @@
+SItecoreVanilla/bin/
+SItecoreVanilla/obj/
